@@ -1,0 +1,38 @@
+.timer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.timer__display {
+    display: flex;
+    justify-content: center;
+}
+.timer__control-panel {
+    margin-top: 20px;
+}
+.timer__item {
+    display: flex;
+    align-items: flex-end;
+    margin-left: 15px;
+}
+.timer__value {
+    font: bold 3em var(--secondary-font);
+    color: #aaa;
+}
+.timer__unit {
+    font: bold 1.2em var(--main-font);
+    color: #aaa;
+    margin-bottom: 7px;
+}
+.timer__toggle-shedule {
+    position: relative;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background: #b3ffbd; 
+    
+}
+.timer__toggle-shedule_play {
+   background: #ffbebe;
+}

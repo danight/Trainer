@@ -1,0 +1,14 @@
+.push-up-mode__display-timer {
+    margin-top: 15px !important;
+}
+.push-up-mode__set-duration {
+    width: 85% !important;
+}
+.push-up-mode__fieldset:nth-of-type(3n) {
+    margin-top: 15px;
+    width: 100%;
+    margin-top: 30px;
+}
+.push-up-mode__choose-duration {
+    width: 60%;
+}
